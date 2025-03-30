@@ -5,9 +5,6 @@ def count(word, sub_str):
     sub_str_len = len(sub_str)
     word_len = len(word)
 
-    if sub_str_len > word_len:
-        return 0
-    
     while(sub_str_len + idx <= word_len):
         if word[idx:sub_str_len + idx] == sub_str:
             sub_str_count += 1

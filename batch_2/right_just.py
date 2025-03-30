@@ -6,6 +6,6 @@ def right_just(word, line_len):
 
 if __name__ == "__main__":
     word_in = input("Input a string: ")
-    line_len = input("How long does the line should be? ")
+    line_len = int(input("How long does the line should be? "))
     word_out = right_just(word_in, line_len)
     print("Output:", word_out)
